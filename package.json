@@ -1,0 +1,26 @@
+{
+    "name": "project-mario-kart-cli",
+    "version": "1.0.0",
+    "description": "Mario Kart CLI Game",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/samuelmarco-dev/project-mario-kart-cli.git"
+    },
+    "keywords": [],
+    "author": "Samuel Ambrózio Marco",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/samuelmarco-dev/project-mario-kart-cli/issues"
+    },
+    "homepage": "https://github.com/samuelmarco-dev/project-mario-kart-cli#readme",
+    "devDependencies": {
+        "eslint": "^9.6.0"
+    }
+}
