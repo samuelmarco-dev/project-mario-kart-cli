@@ -1,9 +1,11 @@
-import persons from "./players/index.js";
+import randomPlayers from "./services/randomPlayers.js";
+import sortDie from "./services/sortDie.js";
 
-// Console de cada personagem
-console.log(persons.Bower);
-console.log(persons.DonkeyKong);
-console.log(persons.Luigi);
-console.log(persons.Mario);
-console.log(persons.Peach);
-console.log(persons.Yoshi);
+const { personOne, personTwo } = randomPlayers();
+const roll = sortDie();
+
+console.log("Personagens sorteados: \n");
+console.log(personOne);
+console.log(personTwo);
+console.log(`Dado sorteado: ${roll}`);
+console.log("\n");

@@ -5,7 +5,7 @@ import Mario from "./Mario.js";
 import Peach from "./Peach.js";
 import Yoshi from "./Yoshi.js";
 
-const persons = {
+const players = {
     "Bower": new Bower,
     "DonkeyKong": new DonkeyKong,
     "Luigi": new Luigi,
@@ -14,4 +14,4 @@ const persons = {
     "Yoshi": new Yoshi
 };
 
-export default persons;
+export default players;
