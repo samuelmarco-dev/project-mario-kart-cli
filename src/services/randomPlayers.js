@@ -9,8 +9,8 @@ import players from "../players/index.js";
 
 /**
  * @returns {{
- * personOne: Bower | DonkeyKong | Luigi | Mario | Peach | Yoshi,
- * personTwo: Bower | DonkeyKong | Luigi | Mario | Peach | Yoshi }}
+ * playerOne: Bower | DonkeyKong | Luigi | Mario | Peach | Yoshi,
+ * playerTwo: Bower | DonkeyKong | Luigi | Mario | Peach | Yoshi }}
  */
 
 const randomPlayers = () => {
@@ -23,8 +23,8 @@ const randomPlayers = () => {
     }
 
     return {
-        personOne: players[keys[randomFirst]],
-        personTwo: players[keys[randomSecond]],
+        playerOne: players[keys[randomFirst]],
+        playerTwo: players[keys[randomSecond]],
     };
 };
 
