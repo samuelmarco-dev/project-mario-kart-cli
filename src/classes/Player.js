@@ -1,8 +1,9 @@
 export default class Player {
-    constructor(speed, maneuverability, power) {
+    constructor(speed, maneuverability, power, points) {
         this.speed = speed;
         this.maneuverability = maneuverability;
         this.power = power;
+        this.points = 0;
     }
 
     getSpeed() {
@@ -15,5 +16,17 @@ export default class Player {
 
     getPower() {
         return this.power;
+    }
+
+    getPoints() {
+        return this.points >= 0 ? this.points : 0;
+    }
+
+    sumPoints(points) {
+        this.points += points;
+    }
+
+    subtractPoints(points) {
+        this.points -= points;
     }
 }
