@@ -19,7 +19,7 @@ export default class Player {
     }
 
     getPoints() {
-        return this.points >= 0 ? this.points : 0;
+        return this.points;
     }
 
     sumPoints(points) {
@@ -27,6 +27,6 @@ export default class Player {
     }
 
     subtractPoints(points) {
-        this.points -= points;
+        if (this.points > 0) this.points -= points;
     }
 }
