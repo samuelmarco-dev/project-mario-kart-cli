@@ -5,7 +5,7 @@ import Mario from "../players/Mario.js";
 import Peach from "../players/Peach.js";
 import Yoshi from "../players/Yoshi.js";
 
-import players from "../players/index.js";
+import players from "../players/index.mjs";
 
 /**
  * @returns {{
